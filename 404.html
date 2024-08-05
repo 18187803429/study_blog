@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.14" />
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+
+      html.dark {
+        --c-bg: #22272e;
+      }
+
+      html,
+      body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.classList.toggle('dark', true)
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>编程絮语</title><meta name="description" content="TypeScript4 最新官方文档翻译">
+    <link rel="preload" href="/study_blog/assets/style-D69TfsqC.css" as="style"><link rel="stylesheet" href="/study_blog/assets/style-D69TfsqC.css">
+    <link rel="modulepreload" href="/study_blog/assets/app-6YZaZaoN.js"><link rel="modulepreload" href="/study_blog/assets/404.html-CKOcYwyA.js">
+    <link rel="prefetch" href="/study_blog/assets/get-started.html-CKmMn-uI.js" as="script"><link rel="prefetch" href="/study_blog/assets/index.html-DG09Fbdd.js" as="script"><link rel="prefetch" href="/study_blog/assets/type.html-BB6IZuy6.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" data-v-58f4f5ca><main class="page" data-v-58f4f5ca><div class="theme-default-content" data-v-58f4f5ca><h1 data-v-58f4f5ca>404</h1><blockquote data-v-58f4f5ca>That&#39;s a Four-Oh-Four.</blockquote><a class="route-link" href="/study_blog/" data-v-58f4f5ca>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/study_blog/assets/app-6YZaZaoN.js" defer></script>
+  </body>
+</html>
